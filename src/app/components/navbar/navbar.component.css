@@ -15,12 +15,28 @@ body {
   display: flex;
   align-items: center;
 }
-.nav_image {
+.nav_image_one {
   display: flex;
   min-width: 55px;
   justify-content: center;
 }
-.nav_image img {
+.nav_image_two {
+    display: flex;
+    min-width: 55px;
+    justify-content: center;
+  }
+.nav_image_one i {
+    background-image: url(./image1.png);
+    background-size: cover;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nav_image_two i {
+    background-image: url(./image.png);
+    background-size: cover;
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -108,6 +124,11 @@ body {
 }
 .sidebar.close .line {
   opacity: 1;
+}
+.im {
+    background-image: url(./image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .item {
   list-style: none;
